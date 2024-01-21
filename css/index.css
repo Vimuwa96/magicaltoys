@@ -36,6 +36,23 @@
   text-decoration: none;
   color: #000;
 }
+#navbar {
+  background-color: #ffffff; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -150px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 150;
+}
+
+/* Style the navbar links */
+#navbar a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+
+
 
 /* Logo Nav */
 .cart-details a {
@@ -261,4 +278,8 @@ img.vert-move {
 .shop-now a{
   text-decoration: none;
   color: #000;
+}
+
+.sub-header h4{
+  font-weight: 800;
 }
