@@ -145,6 +145,14 @@
   position: relative;
 }
 
+
+.shop-now-header a{
+  text-decoration: none;
+  padding: 12px 22px;
+  background-color: rgb(233, 153, 183);
+  color: white;
+  border-radius: 18px;
+}
 .kid-image {
   position: absolute;
   bottom: 0;
@@ -282,4 +290,119 @@ img.vert-move {
 
 .sub-header h4{
   font-weight: 800;
+}
+
+.product-card{
+  background-color: rgb(228,246,254);
+  position: relative;
+}
+
+.overlay-card-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+.overlay-card-content ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+
+}
+
+.overlay-card-content ul li a{
+  text-decoration: none;
+
+}
+
+.product-card:hover .overlay-card-content ul{
+  opacity: 1;
+}
+
+.overlay-card-content ul li a i{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.product-name p{
+  font-weight: 600;
+}
+
+.product-price{
+  font-weight: 600;
+}
+.product-details-wrapper{
+  line-height: 1rem;
+}
+.overlay-card-content ul li a i:hover{
+  color: white;
+  background-color: rgb(233, 153, 183);
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.show-more a{
+  text-decoration: none;
+  padding: 12px 22px;
+  background-color: rgb(4, 4, 4);
+  color: white;
+}
+
+.deals-section-wrapper{
+  background-color: rgb(252,232,241);
+  
+}
+
+.deals-content-wrapper{
+  position: relative;
+  height: 100%;
+}
+
+
+
+
+.center-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.center-content h3{
+  font-weight: 900;
+}
+
+.center-content h6{
+  font-weight: 800;
+}
+
+.shop-now-btn a{
+  padding: 12px 20px;
+  background-color: rgb(233, 153, 183);
+  color: #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.review-body p{
+  text-align: justify;
+}
+
+.review-card{
+  border: 1px solid rgb(236, 232, 232);
+  border-radius: 15px;
+}
+
+.checked{
+  color: #f0b81c;
+}
+
+.cutomer-name p{
+  color: grey;
+  font-style: italic;
 }

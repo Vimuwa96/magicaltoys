@@ -11,6 +11,20 @@
       crossorigin="anonymous"
     ></script>
 
+     <!-- JQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Slider -->
+    <link
+      href="
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
     <!-- External CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/index.css" />
@@ -19,42 +33,40 @@
     <div class="body-wrapper">
       <!-- Upper Navbar Start -->
       <div class="d-none d-sm-block">
-      <div class="upper-nav-wrapper p-2">
-        <div class="container">
-          <div class="upper-nav-links-wrapper my-auto">
-            <div class="upper-left">
-              <p class="d-flex my-auto">Fee Return and Free Shipping</p>
-            </div>
-            <div class="upper-right d-flex">
-              <div class="mobile d-flex my-auto px-3">
-                <a href=""
-                  ><i class="fa-solid fa-phone" style="padding-right: 5px"></i
-                  >+94 764906767</a
-                >
-               
+        <div class="upper-nav-wrapper p-2">
+          <div class="container">
+            <div class="upper-nav-links-wrapper my-auto">
+              <div class="upper-left">
+                <p class="d-flex my-auto">Fee Return and Free Shipping</p>
               </div>
-              <div class="vr"></div>
-              <div class="mobile d-flex my-auto px-3">
-                <a href=""
-                  ><i
-                    class="fa-solid fa-envelope"
-                    style="padding-right: 5px"
-                  ></i
-                  >vmalinda866@gmail.com</a
-                >
-                
-              </div>
-              <div class="vr"></div>
-              <div class="mobile d-flex my-auto px-3">
-                <a href=""
-                  ><i class="fa-solid fa-user" style="padding-right: 5px"></i
-                  >Account</a
-                >
+              <div class="upper-right d-flex">
+                <div class="mobile d-flex my-auto px-3">
+                  <a href=""
+                    ><i class="fa-solid fa-phone" style="padding-right: 5px"></i
+                    >+94 764906767</a
+                  >
+                </div>
+                <div class="vr"></div>
+                <div class="mobile d-flex my-auto px-3">
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-envelope"
+                      style="padding-right: 5px"
+                    ></i
+                    >vmalinda866@gmail.com</a
+                  >
+                </div>
+                <div class="vr"></div>
+                <div class="mobile d-flex my-auto px-3">
+                  <a href=""
+                    ><i class="fa-solid fa-user" style="padding-right: 5px"></i
+                    >Account</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
       <!-- Upper Navbar End -->
       <!-- Navigation Bar Start -->
@@ -75,40 +87,50 @@
           <div class="d-none d-sm-block">
             <div class="search-bar d-flex my-auto">
               <form action="">
-              <input
-                type="text"
-                class="search g-0"
-                placeholder="Search Everything"
-                aria-label="Recipient's username"
-                aria-describedby="button-addon2" required
-              />
-              <button class="search-btn g-0" type="submit" id="button-addon2">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
+                <input
+                  type="text"
+                  class="search g-0"
+                  placeholder="Search Everything"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                  required
+                />
+                <button class="search-btn g-0" type="submit" id="button-addon2">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
             </div>
           </div>
 
           <div class="cart-wishlist-wrapper d-flex">
             <div class="wishlist-details d-flex my-auto px-3">
-              <a href="" ><img src="images/heart.png" alt="" height="21px"></a>
+              <a href=""><img src="images/heart.png" alt="" height="21px" /></a>
             </div>
-  
+
             <div class="cart-details d-flex my-auto">
               <div class="cart-image">
-                <a href="" ><img src="images/shopping-bag.png" alt="" height="25px"><div class="cart-count">1</div></a>
+                <a href=""
+                  ><img src="images/shopping-bag.png" alt="" height="25px" />
+                  <div class="cart-count">1</div></a
+                >
               </div>
-              
             </div>
           </div>
-         
         </div>
       </div>
 
       <!-- Main Nav Links -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -131,20 +153,28 @@
             </ul>
           </div>
         </div>
-    
       </nav>
-     
+
       <!-- Scroll Navbar -->
       <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-          <a class="navbar-brand" href="#"><img
-            class="d-flex my-auto"
-            src="https://htmldemo.net/kidol/kidol/assets/img/logo.png"
-            alt=""
-            width="100%"
-            height="100%"
+          <a class="navbar-brand" href="#"
+            ><img
+              class="d-flex my-auto"
+              src="https://htmldemo.net/kidol/kidol/assets/img/logo.png"
+              alt=""
+              width="100%"
+              height="100%"
           /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarContent">
@@ -164,27 +194,29 @@
               <li class="nav-item px-3">
                 <a class="nav-link" href="#">Tracker Order</a>
               </li>
-             
             </ul>
-         
-            
           </div>
           <div class="mobile-wrapper d-flex text-center px-5">
-            <div class="scroll-cart-wishlist-wrapper d-flex justify-content-between">
+            <div
+              class="scroll-cart-wishlist-wrapper d-flex justify-content-between"
+            >
               <div class="wishlist-details px-3">
-                <a href="" ><img src="images/heart.png" alt="" height="21px"></a>
+                <a href=""
+                  ><img src="images/heart.png" alt="" height="21px"
+                /></a>
               </div>
-    
+
               <div class="scroll-cart-details px-3">
                 <div class="cart-image">
-                  <a href="" ><img src="images/shopping-bag.png" alt="" height="25px"><div class="cart-count">1</div></a>
+                  <a href=""
+                    ><img src="images/shopping-bag.png" alt="" height="25px" />
+                    <div class="cart-count">1</div></a
+                  >
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-      
       </nav>
       <!-- Navigation Bar End -->
 
@@ -192,59 +224,108 @@
 
       <div class="main-header-wrapper">
         <div class="custom-shape-divider-top-1705825402">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-              <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-              <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
           </svg>
-      </div>
+        </div>
 
-      <div class="container" >
-        
-
+        <div class="container">
           <div class="row" id="main">
             <div class="col-md-6 d-flex my-auto text-center">
               <div class="main-header text-center">
-              <p>Magical Toys Paradaise</p>
-                <h1 class="d-flex my-auto">Best Kids Store <br> & Online Shop </h1>
-              
+                <p>Magical Toys Paradaise</p>
+                <h1 class="d-flex my-auto">
+                  Best Kids Store <br />
+                  & Online Shop
+                </h1>
+
+                <div class="shop-now-header pt-5">
+                  <a href="">Shop Now</a>
+                </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="kid-image">
-                <img class="vert-move"  src="images/kid.png" alt="" width="100%" height="100%">
+                <img
+                  class="vert-move"
+                  src="images/kid.png"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
               </div>
-            
             </div>
           </div>
-        
-       
-      </div>
+        </div>
 
-
-      <div class="waves-bottom-header d-none d-sm-block">
-        <div class="custom-shape-divider-bottom-1705825610">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-              <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-              <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-          </svg>
-      </div>
-
-      
-
-
-      </div>
-      <div class="mobile-waves d-block d-sm-none">
-        <div class="custom-shape-divider-bottom-1705825864">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-              <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-              <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-          </svg>
-      </div>
-      </div>
-
+        <div class="waves-bottom-header d-none d-sm-block">
+          <div class="custom-shape-divider-bottom-1705825610">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25"
+                class="shape-fill"
+              ></path>
+              <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5"
+                class="shape-fill"
+              ></path>
+              <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="mobile-waves d-block d-sm-none">
+          <div class="custom-shape-divider-bottom-1705825864">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25"
+                class="shape-fill"
+              ></path>
+              <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5"
+                class="shape-fill"
+              ></path>
+              <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
+        </div>
       </div>
       <!-- Main Header End -->
 
@@ -252,116 +333,590 @@
 
       <div class="about-us-wrapper">
         <div class="container">
-
           <div class="header-section-wrapper">
             <div class="section-mian-header">
               <h6>Welcome to Magical Toys Paradaise</h6>
               <!-- <h3>Quility Products <span class="line">|</span>  Retail Seller <span class="line">|</span> Reasonable Price </h3> -->
-              <hr class="heder-hr">
+              <hr class="heder-hr" />
             </div>
           </div>
 
-        <!-- Categories -->
+          <!-- Categories -->
           <div class="category-wrapper pt-3" id="categories">
             <div class="row">
-              <div class="col-md-3 col-6 g-2">
-                
+              <div class="col-md-3 col-6 g-2 g-2">
                 <div class="category-card-wrapper">
                   <a href="">
-                  <div class="category-header">
-                    <h4>Play Vehicals</h4>
-                  </div>
-                  <div class="shop-now">
-                    <a href="">Shop Now</a>
-                  </div>
-                  <div class="category-image">
-                    <img src="images/cars.png" alt="" width="100%" height="100%">
-                  </div>
-
-
+                    <div class="category-header">
+                      <h4>Play Vehicals</h4>
+                    </div>
+                    <div class="shop-now">
+                      <a href="">Shop Now</a>
+                    </div>
+                    <div class="category-image">
+                      <img
+                        src="images/cars.png"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                  </a>
                 </div>
-              </a>
               </div>
               <div class="col-md-3 col-6 g-2">
-                
                 <div class="category-card-wrapper">
                   <a href="">
-                  <div class="category-header">
-                    <h4>Dolls</h4>
-                  </div>
-                  <div class="shop-now">
-                    <a href="">Shop Now</a>
-                  </div>
-                  <div class="category-image">
-                    <img src="images/dolls.png" alt="" width="100%" height="100%">
-                  </div>
-
-
+                    <div class="category-header">
+                      <h4>Dolls</h4>
+                    </div>
+                    <div class="shop-now">
+                      <a href="">Shop Now</a>
+                    </div>
+                    <div class="category-image">
+                      <img
+                        src="images/dolls.png"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                  </a>
                 </div>
-              </a>
               </div>
               <div class="col-md-3 col-6 g-2">
-                
                 <div class="category-card-wrapper">
                   <a href="">
-                  <div class="category-header">
-                    <h4>Puzzles</h4>
-                  </div>
-                  <div class="shop-now">
-                    <a href="">Shop Now</a>
-                  </div>
-                  <div class="category-image">
-                    <img src="images/puzzels.png" alt="" width="100%" height="100%">
-                  </div>
-
-
+                    <div class="category-header">
+                      <h4>Puzzles</h4>
+                    </div>
+                    <div class="shop-now">
+                      <a href="">Shop Now</a>
+                    </div>
+                    <div class="category-image">
+                      <img
+                        src="images/puzzels.png"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                  </a>
                 </div>
-              </a>
               </div>
               <div class="col-md-3 col-6 g-2">
-                
                 <div class="category-card-wrapper">
                   <a href="">
-                  <div class="category-header">
-                    <h4>Educational</h4>
-                  </div>
-                  <div class="shop-now">
-                    <a href="">Shop Now</a>
-                  </div>
-                  <div class="category-image">
-                    <img src="images/education.png" alt="" width="100%" height="100%">
-                  </div>
-
-
+                    <div class="category-header">
+                      <h4>Educational</h4>
+                    </div>
+                    <div class="shop-now">
+                      <a href="">Shop Now</a>
+                    </div>
+                    <div class="category-image">
+                      <img
+                        src="images/education.png"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                  </a>
                 </div>
-              </a>
               </div>
             </div>
           </div>
-
         </div>
-        
       </div>
 
-      <div class="new-arrivals-wrapper pt-5 ">
+      <div class="new-arrivals-wrapper pt-5">
         <div class="container">
           <div class="sub-header text-center">
             <h4>New Arrivals</h4>
           </div>
           <div class="sub-desc text-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut labore et dolore magna aliqua
+            </p>
           </div>
 
-
-
-
-
+          <div class="product-wrapper pb-5">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/1.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/2.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/3.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/7.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/2.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/7.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/2.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 g-2">
+                <div class="product-card p-5">
+                  <div class="product-image d-flex justify-content-center">
+                    <img
+                      src="https://htmldemo.net/kidol/kidol/assets/img/shop/3.png"
+                      alt=""
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                  <div class="overlay-card-content">
+                    <ul>
+                      <li class="px-1">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                      </li>
+                      <li class="px-1">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product-details-wrapper pt-3">
+                    <div class="product-name">
+                      <p>Funskool Teddy</p>
+                    </div>
+                    <div class="product-price">
+                      <p>1800 LKR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-more text-center pt-5">
+              <a href="">Show More</a>
+            </div>
+          </div>
         </div>
-      
-    </div>
+      </div>
+      <div class="deals-section-wrapper">
+        <div class="container">
+          <div class="deals-content-wrapper">
+            <div class="row" id="rowid">
+              <div class="col-md-4" id="kidsimage">
+                <img
+                  src="https://htmldemo.net/kidol/kidol/assets/img/divider/1.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-4" id="center-content">
+                <div class="center-content">
+                  <h3>Deal Of the Day</h3>
+                  <h6>
+                    <span style="color: brown">UPTO 35% OFF</span> ON ALL OTHER
+                    VEHICAL TOYS
+                  </h6>
+
+                  <div class="shop-now-btn pt-3">
+                    <a href="">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-sm-block" id="kidsimage">
+                <img
+                  src="https://htmldemo.net/kidol/kidol/assets/img/divider/2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Why us section End -->
+
+      <!-- Cutomer Reviews -->
+      <div class="reviews-wrapper p">
+        <div class="container pt-5">
+          <div class="sub-header text-center">
+            <h4>They Really <span style="color:rgb(233, 153, 183);"> Love</span> Us</h4>
+          </div>
+          <div class="sub-desc text-center mb-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+
+          <!-- Reviews -->
+
+          <div class="your-class">
+            <div class="px-2">
+              <div class="review-card mb-2 p-3">
+                <div class="review-rate">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-body pt-3">
+                  <p>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Excepturi laborum eum illum atque"
+                  </p>
+                </div>
+                <div class="cutomer-name d-flex justify-content-end">
+                  <p> - Keshali Nanayakkara - </p>
+                </div>
+              </div>
+            </div>
+            <div class="px-2">
+              <div class="review-card p-3">
+                <div class="review-rate">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-body pt-3">
+                  <p>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Excepturi laborum eum illum atque"
+                  </p>
+                </div>
+                <div class="cutomer-name d-flex justify-content-end">
+                  <p>- Keshali Nanayakkara - </p>
+                </div>
+              </div>
+            </div>
+            <div class="px-2">
+              <div class="review-card p-3">
+                <div class="review-rate">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-body pt-3">
+                  <p>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Excepturi laborum eum illum atque"
+                  </p>
+                </div>
+                <div class="cutomer-name d-flex justify-content-end">
+                  <p>- Keshali Nanayakkara - </p>
+                </div>
+              </div>
+            </div>
+            <div class="px-2">
+              <div class="review-card p-3">
+                <div class="review-rate">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-body pt-3">
+                  <p>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Excepturi laborum eum illum atque"
+                  </p>
+                </div>
+                <div class="cutomer-name d-flex justify-content-end">
+                  <p>- Keshali Nanayakkara - </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="px-2">
+              <div class="review-card p-3">
+                <div class="review-rate">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-body pt-3">
+                  <p>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Excepturi laborum eum illum atque"
+                  </p>
+                </div>
+                <div class="cutomer-name d-flex justify-content-end">
+                  <p>- Keshali Nanayakkara - </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="js/index.js"></script>
   <script src="js/navbar.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".your-class").slick({
+        dots: true,
+  infinite: true,
+  speed: 300,
+  autoplay: true,
+autoplaySpeed: 3000,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+      });
+    });
+  </script>
 </html>
