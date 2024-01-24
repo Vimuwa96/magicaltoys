@@ -406,3 +406,77 @@ img.vert-move {
   color: grey;
   font-style: italic;
 }
+
+.footer-warpper {
+  background-color: #212121;
+}
+
+.footer-links{
+  list-style: none;
+}
+
+.footer-links li a{
+  text-decoration: none;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.footer-links a i{
+  background-color: rgb(233, 153, 183);
+  padding: 10px 13px;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+}
+
+.footer-links i:hover{
+  transition: 0.5s ease-in-out;
+  background-color: rgb(0, 0, 0);
+ 
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+}
+.social a i{
+  padding: 10px 11px;
+}
+.social2 a i{
+  padding: 10px 9.5px;
+}
+.social3 a i{
+  padding: 10px 10px;
+}
+.discription p{
+  color: #ffffff;
+  text-align: justify;
+}
+
+.footer-heading h5{
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer-nav-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-links a{
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.1s ease-in-out;
+  font-size: 15px;
+}
+
+.footer-nav-links a:hover{
+  text-decoration: none;
+  color: rgb(233, 153, 183);
+  padding-left: 5px;
+}
+
+.address p{
+  color: white;
+  text-align: justify;
+}
