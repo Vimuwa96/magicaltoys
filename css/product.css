@@ -1,0 +1,283 @@
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+  color: rgb(255, 142, 169);
+}
+
+.breadcrumb-item {
+  color: rgb(255, 142, 169);
+  font-weight: 500;
+}
+
+.thumb-img {
+  display: flex;
+  list-style: none;
+  justify-content: center !important;
+}
+
+.thumb-img li a img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  padding: 10px 5px;
+}
+
+.thumb-img li a img:hover {
+  border: 1px solid black;
+}
+
+.product-name h3 {
+  font-weight: 600;
+}
+
+.product-price h5 {
+  color: rgb(255, 142, 169);
+  font-weight: 600;
+}
+
+.stock-details p {
+  color: green;
+}
+
+.size-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.size-guid a,
+.delivery-return a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.size-guid a:hover,
+.delivery-return a:hover {
+  text-decoration: none;
+  color: rgb(255, 142, 169);
+  font-weight: 600;
+}
+
+.available-sizes {
+  line-height: 1px;
+}
+.available-sizes p {
+  font-weight: 600;
+  font-size: 12px;
+}
+.available-sizes-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.available-sizes-list input {
+  padding: 15px 18px;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.qty {
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.qty[type="number"]::-webkit-inner-spin-button,
+.qty[type="number"]::-webkit-outer-spin-button {
+  opacity: 50%;
+}
+
+.qty[type="number"]::-webkit-outer-spin-button,
+.qty[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #000;
+}
+
+.qty-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.add-to-cart-warpper {
+  width: 100%;
+  background-color: rgb(255, 142, 169);
+  padding: 15px;
+}
+.add-to-cart-warpper a {
+  color: aliceblue;
+  font-weight: 500;
+  display: flex;
+  text-decoration: none;
+  object-fit: contain;
+  max-width: 500px;
+  justify-content: center;
+}
+
+.add-to-cart-warpper:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  font-weight: 500;
+  max-width: 500px;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.small-desc {
+  color: grey;
+}
+
+.circle {
+  color: red;
+}
+
+.buy-now-btn-wrapper {
+  background-color: #000;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.buy-now-btn-wrapper:hover {
+  background-color: rgb(255, 142, 169);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.buy-now-btn-wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
+.more-details ul li span {
+  color: grey;
+}
+
+.more-details ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.services-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(237, 235, 235);
+  padding: 18px 10px;
+}
+
+.services-card-icon i {
+  color: rgb(255, 142, 169);
+  height: 20px;
+  width: 20px;
+}
+
+.service-description p {
+  font-size: small;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.review-wrapper {
+  border-top: 1px solid rgb(228, 226, 226);
+  border-bottom: 1px solid rgb(228, 226, 226);
+}
+
+.review {
+  padding: 15px;
+  justify-content: center;
+}
+
+.review p {
+  font-weight: 500;
+}
+
+.write-review {
+  text-decoration: none;
+  color: black;
+}
+
+.namefeild {
+  border: 1px solid rgb(228, 226, 226);
+  padding: 10px;
+}
+
+.namefeild::placeholder {
+  padding-left: 25px;
+  padding: 10px;
+}
+
+.star-rating {
+  display: inline-block;
+  
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.star-rating label:before {
+  content: '\2605'; /* Unicode character for a solid star */
+  margin: 5px;
+}
+
+.star-rating input:checked ~ label {
+  color: #fdd835; /* Change color of selected stars */
+}
+
+
+.submit-review{
+  border: none;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+.checked {
+  color: orange;
+}
+
+.review-card{
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.review-title p{
+  font-weight: 500;
+}
+
+.review-comment p{
+  font-weight: 400;
+  color: grey;
+  text-align: justify;
+}
+
+
+/* Footer */
+
+#navbar{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

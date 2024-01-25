@@ -16,6 +16,7 @@
   overflow-y: hidden !important;
 }
 
+
 /* Upper Nav */
 .upper-nav-wrapper {
   background-color: rgb(237, 239, 240);
@@ -36,6 +37,9 @@
   text-decoration: none;
   color: #000;
 }
+#navbar{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #navbar {
   background-color: #ffffff; /* Black background color */
   position: fixed; /* Make it stick/fixed */
@@ -43,6 +47,7 @@
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   z-index: 150;
+
 }
 
 /* Style the navbar links */

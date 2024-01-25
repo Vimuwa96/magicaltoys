@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paradise Toys</title>
+
+    <!-- Fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/1a3b5235e0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Slider -->
+    <link
+      href="
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <!-- Upper Navbar Start -->
+    <div class="d-none d-sm-block">
+      <div class="upper-nav-wrapper p-2">
+        <div class="container">
+          <div class="upper-nav-links-wrapper my-auto">
+            <div class="upper-left">
+              <p class="d-flex my-auto">Fee Return and Free Shipping</p>
+            </div>
+            <div class="upper-right d-flex">
+              <div class="mobile d-flex my-auto px-3">
+                <a href=""
+                  ><i class="fa-solid fa-phone" style="padding-right: 5px"></i
+                  >+94 764906767</a
+                >
+              </div>
+              <div class="vr"></div>
+              <div class="mobile d-flex my-auto px-3">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-envelope"
+                    style="padding-right: 5px"
+                  ></i
+                  >vmalinda866@gmail.com</a
+                >
+              </div>
+              <div class="vr"></div>
+              <div class="mobile d-flex my-auto px-3">
+                <a href=""
+                  ><i class="fa-solid fa-user" style="padding-right: 5px"></i
+                  >Account</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Upper Navbar End -->
+    <!-- Navigation Bar Start -->
+
+    <!-- Logo and search -->
+    <div class="logo-search-cart-wrapper p-3">
+      <div class="container d-flex justify-content-around my-auto">
+        <div class="site-logo">
+          <img
+            class="d-flex my-auto"
+            src="https://htmldemo.net/kidol/kidol/assets/img/logo.png"
+            alt=""
+            width="100%"
+            height="100%"
+          />
+        </div>
+
+        <div class="d-none d-sm-block">
+          <div class="search-bar d-flex my-auto">
+            <form action="">
+              <input
+                type="text"
+                class="search g-0"
+                placeholder="Search Everything"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+                required
+              />
+              <button class="search-btn g-0" type="submit" id="button-addon2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="cart-wishlist-wrapper d-flex">
+          <div class="wishlist-details d-flex my-auto px-3">
+            <a href=""><img src="images/heart.png" alt="" height="21px" /></a>
+          </div>
+
+          <div class="cart-details d-flex my-auto">
+            <div class="cart-image">
+              <a href="cart.html"
+                ><img src="images/shopping-bag.png" alt="" height="25px" />
+                <div class="cart-count">1</div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Nav Links -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Tracker Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Scroll Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="d-flex my-auto"
+            src="https://htmldemo.net/kidol/kidol/assets/img/logo.png"
+            alt=""
+            width="100%"
+            height="100%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav p-3 mx-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Tracker Order</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-wrapper d-flex text-center px-5">
+          <div
+            class="scroll-cart-wishlist-wrapper d-flex justify-content-between"
+          >
+            <div class="wishlist-details px-3">
+              <a href=""><img src="images/heart.png" alt="" height="21px" /></a>
+            </div>
+
+            <div class="scroll-cart-details px-3">
+              <div class="cart-image">
+                <a href="cart.html"
+                  ><img src="images/shopping-bag.png" alt="" height="25px" />
+                  <div class="cart-count">1</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Bar End -->
+
+
+    <!-- Cart Start Here -->
+    <div class="cart-wrapper pt-3">
+
+        <div class="container">
+
+            <div class="row">
+
+            <div class="col-md-10">
+                <table class="table">
+
+                    <thead>
+                        <th>Item Image</th>
+                        <th>Item Name</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Line Total</th>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td><img src="https://topkid-store-demo.myshopify.com/cdn/shop/products/9.3.jpg?v=1647587676" alt="" width="80px"></td>
+                            <td class="align-middle">Fork Set Powder</td>
+                            <td> <div class="qty-wrapper pt-4 mb-3">
+                                <div class="qty-input my-auto px-3">
+                                  <input
+                                    type="number"
+                                    class="qty w-100"
+                                    min="1"
+                                    max="10"
+                                    value="1"
+                                  />
+                                </div></td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+            </div>
+
+            <div class="col-md-2">
+               <div class="total-wrapper">
+
+               </div>
+            </div>
+
+            </div>
+            
+
+            
+        </div>
+
+
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $(".thumb-img a").on("click", function (e) {
+        e.preventDefault();
+        $(".thumb-previewer img").attr("src", $(this).attr("href"));
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".your-class").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    });
+  </script>
+</html>
