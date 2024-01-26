@@ -1,0 +1,74 @@
+.body-wrapper {
+  overflow: hidden;
+}
+
+.qty {
+  width: 70px;
+  padding: 10px;
+  border: 1px solid rgb(228, 224, 224);
+}
+
+thead th {
+  align-items: center;
+}
+
+.total-wrapper {
+  height: 50vh;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.empty-cart a {
+  padding: 12px 22px;
+  text-decoration: none;
+  background-color: rgb(255, 142, 169);
+  color: #fefefe;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+  color: rgb(255, 142, 169);
+}
+
+.breadcrumb-item {
+  color: rgb(255, 142, 169);
+  font-weight: 500;
+}
+
+.weight-cal p , .sub-total p{
+    font-weight: 500;
+    color: rgb(48, 47, 47);
+}
+
+.weight-price{
+    color: rgb(255, 142, 169);
+    font-weight: 600;  
+}
+.price-cal{
+    background-color: #faf5f5;
+}
+.total-price{
+    color: rgb(255, 142, 169);
+    font-weight: 700;
+    font-size: larger; 
+}
+
+.proceed-checkout a{
+    background-color: #000;
+    padding: 12px 22px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.proceed-checkout a:hover{
+    background-color: rgb(255, 142, 169);
+    padding: 12px 22px;
+    text-decoration: none;
+    color: white;
+}

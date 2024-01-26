@@ -1,0 +1,57 @@
+.form-control{
+    border: 1px solid rgb(240, 237, 237);
+}
+
+.form-control:focus{
+    border-color: rgb(255, 142, 169);
+    box-shadow: none;
+  }
+
+
+.checkout-heading{
+    font-weight: 700;
+}
+
+.your-order-wrapper{
+    background-color: #f9f9f6;
+}
+.order-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+}
+.produ p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hr-order{
+    padding: 0;
+    margin: 0;
+  
+   
+}
+.item-name{
+    font-weight: 400;
+}
+.sub-total{
+    padding: 15px 15px 0 15px;
+}
+
+.plcae-order-btn {
+    text-decoration: none;
+  
+    color: white;
+}
+
+.plcae-order-btn{
+    background-color: black;
+    padding: 12px;
+   
+}
+
+.plcae-order-btn-bg{
+    background-color: black;
+    border: none;
+    color: white;
+}
